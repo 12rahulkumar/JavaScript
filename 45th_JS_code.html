@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS</title>
+</head>
+<body>
+    
+    <p>Click "Try it" to call a function with arguments</p>
+
+    <button onclick="myFunction('Harry Potter','Wizard')">Try it</button>
+
+    <p id="demo"></p>
+
+    <script>
+    function myFunction(name,job) {
+      document.getElementById("demo").innerHTML = "Welcome " + name + ", the " + job + ".";
+    }
+    </script>
+    
+    <h2>JavaScript Functions</h2>
+
+    <p>This example calls a function which performs a calculation and returns the result:</p>
+
+    <p id="demo1"></p>
+
+    <script>
+    var x = myFunction(4, 3);
+    document.getElementById("demo1").innerHTML = x;
+
+    function myFunction(a, b) {
+      return a * b;
+    }
+    </script>
+    
+</body>
+</html>
