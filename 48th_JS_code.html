@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js</title>
+</head>
+<body>
+    
+    <h2>JS String methods</h2>
+    <p>Replace microsoft with w3schools in the paragraph below:</p>
+    <button type="button" onclick="myfunction()">try it</button>
+    <p id="demo">please visit microsoft</p>
+    <script>
+        function myfunction(){
+            var str = document.getElementById('demo').innerHTML;
+            
+            var text = str.replace('microsoft','w3schools');
+            document.getElementById('demo').innerHTML = txt;
+        }
+    </script>
+    
+</body>
+</html>
